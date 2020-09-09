@@ -6,8 +6,9 @@ body {
     margin-top: 58px;
 }
 
-.container {
-    background-color: #cbcbf8;
+.box {
+    height: 40px;
+    width: 100%;
 }
 
 
@@ -44,26 +45,48 @@ a:hover {
 
 .footer {
     background-color: rgb(9, 17, 65);
-    font-size: 16px;
+}
+
+.row {
+    width: 100%;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer__icons {
+    color: #fff;
+    font-weight: 500;
 }
 
 .footer__social {
-    margin: 20px 0 20px 160px;
-    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
     font-size: 16px;
 }
 
-.footer a {
-    font-size: 16px;
+.footer__social img {
+    margin-right: 10px;
+}
+
+.footer__social a {
+    padding: 10px 0px;
 }
 
 .footer__logo {
-    margin: 50px 10px 20px 10px;
-    padding: 0 10px;
+    padding: 70px 10px;
 }
 
 .footer__content {
     color: #fff;
+}
+
+.footer__text {
+    font-weight: 500;
 }
 
 .footer__content img {
@@ -72,13 +95,42 @@ a:hover {
 }
 
 .footer__contacts {
-    margin: 20px 0 20px 0;
-    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 10px;
 }
 
-.footer__text,
-.footer__icons {
-    border-bottom: 0.2px solid #fff;
-    width: 100px;
-    color: #fff;
+
+/* style for contacts */
+
+.display-4 {
+    margin-top: 20px;
+}
+
+.our_map {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+/* style for blog */
+
+.alert-heading {
+    margin-top: 20px;
+}
+
+
+/* style for portfolio */
+
+.card-header {
+    margin-top: 20px;
+}
+
+
+/* style for about */
+
+.rounded .float-right img,
+.rounded .float-left img {
+    margin: 0px 5px;
 }
